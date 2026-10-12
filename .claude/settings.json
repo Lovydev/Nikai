@@ -1,0 +1,19 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .sovereign/hooks/danger-guard.mjs"
+          },
+          {
+            "type": "command",
+            "command": "node .sovereign/hooks/branch-guard.mjs"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+# SDD Runtime Configuration
+version: 1.0.0
+stack:
+  language: python
+  version: "3.10"
+  runtime: local
+  test_runner: pytest
+
+methodology:
+  lane_default: ftd
+  sdd_threshold: complex
+  require_plan_approval: true
+
+storage:
+  docs_root: 02-DOCS
+  tools_root: 01-TOOLS
+  vault_root: /mnt/storage/nikai-data/vault

@@ -1,0 +1,8 @@
+.worktrees/
+.env
+*.env
+credentials.json
+__pycache__/
+*.pyc
+.sovereign/memory/
+.rsc/memory/
